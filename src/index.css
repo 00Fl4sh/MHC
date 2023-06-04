@@ -1,0 +1,86 @@
+.navbar{
+  background: rgb(231, 103, 103);
+  text-decoration: none;
+  color: white;
+  height: 55px;
+  display: flex;
+  
+  
+justify-content: space-evenly;
+}
+.nav{
+  padding-top: 15px;
+  /* padding-bottom: auto; */
+  text-decoration: none;
+  color:bisque;
+}
+.navbar:hover{
+  background:repeating-linear-gradient(rgb(92, 28, 28),transparent 100px);
+}
+.nav:hover{
+  color: white;
+  text-decoration: underline;
+}
+/* home */
+.football{
+  z-index:-1;
+  top: -24px;
+  height:590px;
+  position: relative;
+  padding-top: 100px;
+  text-align: center;
+  color:rgb(221, 46, 46);
+  background-image: url(https://images.pexels.com/photos/797900/pexels-photo-797900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+
+  /* background:linear-gradient(rgb(237, 98, 98),transparent 100px); */
+  border: solid 2px rgb(255, 255, 255);
+}
+.welcome{
+  top: -75px;
+  color: aliceblue;
+  position: relative;
+  height: 350px;
+ font-size:50px;
+ text-align: center;
+ text-decoration: aqua;
+ background-image: url(https://images.pexels.com/photos/797900/pexels-photo-797900.jpeg);
+}
+.welcome:hover{
+  color: red;
+}
+.score{
+  position: relative;
+  top:-215px;
+  background: linear-gradient(rgb(200, 100, 100), white);
+color: black;
+font-size: 140px;
+text-align: center;
+}
+button{
+  padding: 13px;
+  margin: 10px;
+  margin-left: 230px;
+  text-align: center;
+background-color: rgb(211, 198, 222);
+border-style: none;
+border-radius: 10%;
+height: 45px;
+}
+.fix{
+  position: sticky;
+  top: 0px;
+  
+}
+.teamA{
+float: inline-start;
+top:-250px;
+position: relative;
+
+}
+.teamB{
+float: right;
+top:-320px;
+position: relative;
+background-image: url();
+
+}
